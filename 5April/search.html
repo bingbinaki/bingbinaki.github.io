@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="welcome.php" method="POST" enctype="multipart/form-data">
+    <!--input type 的各种属性-->
+    <label>你最喜欢谁：<input type="search" name="search"></label><br><br>
+    <label>pick one color:<input type="color" name="color"></label><br><br>
+    <input type="hidden" name="MAX_FILE_SIZE" value="1024">
+    <label>请上传头像<input type="file" name="file" accept="image/*" multiple></label><br><br>
+    <label>点我就开始<input type="image" src="start.png" alt="start button"></label>
+    </form>
+</body>
+</html>
