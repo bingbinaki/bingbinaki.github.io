@@ -1,6 +1,6 @@
 aside{
     width: 20%;
-    height: 2700px;
+    height: 5000px;
     float: left;
     background-color:rgba(0,0,0,0.9);
     color: white;
@@ -14,7 +14,7 @@ aside{
 
 main{
     margin-left: 20%;
-    height: 2700px;
+    height: 5000px;
 }
 
 .container{
@@ -33,6 +33,8 @@ article.right{
     width: 50%;
     margin: 1em auto;
     float: right;
+    padding:0 2%;
+    box-sizing: border-box;
 }
 
 article h4,article p{position: sticky;}
